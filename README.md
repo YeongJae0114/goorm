@@ -15,6 +15,7 @@
 
 **No.3 : GitHub-Finder** 
 
+- [github-finder_App - 보러가기](https://yeongjae0114.github.io/goorm/js-projects/github-finder_App)
 **No.4 : Excel SpreadSheet** 
 
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/359f9e67-25ee-493a-be37-938ce5457d12">
