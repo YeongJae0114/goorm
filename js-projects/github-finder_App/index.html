@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub Finder</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- 네비게이션 바 추가 -->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <h2>GitHub Finder</h2>
+      </div>
+    </nav>
+
+    <h1>Search GitHub Users</h1>
+    <!-- 검색 공간을 감싸는 컨테이너 추가 -->
+    <div class="container">
+      <form id="searchForm">
+        <input
+          type="text"
+          id="username"
+          placeholder="Enter a username to fetch a user profile and repos"
+        />
+        <button type="submit">Search</button>
+      </form>
+    </div>
+
+    <!-- 사용자 정보 표시 공간을 감싸는 컨테이너 추가 -->
+    <div class="container">
+      <div id="userInfo">This is a service that allows you to view GitHub information at a glance.</div>
+    </div>
+
+    <!-- 최신 저장소 보기 공간을 감싸는 컨테이너 추가 -->
+    <div class="container">
+      <h3>Latest Repos</h3>
+      <ul class="repo-list">
+        <!-- 최신 저장소 목록이 여기에 표시됩니다 -->
+        A list of the latest repositories for the searched user will be displayed here.
+      </ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
