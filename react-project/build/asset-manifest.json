@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/goorm/react-project/react-budget-app/static/css/main.358b5fd7.css",
+    "main.js": "/goorm/react-project/react-budget-app/static/js/main.259671a2.js",
+    "static/js/787.e86158d1.chunk.js": "/goorm/react-project/react-budget-app/static/js/787.e86158d1.chunk.js",
+    "index.html": "/goorm/react-project/react-budget-app/index.html",
+    "main.358b5fd7.css.map": "/goorm/react-project/react-budget-app/static/css/main.358b5fd7.css.map",
+    "main.259671a2.js.map": "/goorm/react-project/react-budget-app/static/js/main.259671a2.js.map",
+    "787.e86158d1.chunk.js.map": "/goorm/react-project/react-budget-app/static/js/787.e86158d1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.358b5fd7.css",
+    "static/js/main.259671a2.js"
+  ]
+}
