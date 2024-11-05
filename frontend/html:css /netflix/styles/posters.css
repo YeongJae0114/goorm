@@ -1,0 +1,36 @@
+.categories {
+    display: flex;
+    flex-direction: column;
+    margin-left: var(--side-margin);
+    margin-top: 1vw;
+}
+
+.category {
+    font-weight: 400;
+    font-size: 1.5vw;
+    margin-top: 1vw;
+}
+
+.posters {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    gap: 1vw;
+    margin-left: -1.1vw;
+    padding: 1.1vw;
+}
+
+.posters::-webkit-scrollbar {
+    display: none;
+}
+
+.poster img {
+    width: 14vw;
+    transition: all 0.5s;
+}
+
+.poster img:hover {
+    transform: scale(1.12);
+}
