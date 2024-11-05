@@ -1,0 +1,16 @@
+header {
+    position: fixed;
+    background-image: linear-gradient(to bottom, var(--main-bg-color) 20%, transparent);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: var(--header-height);
+    padding: 1.5em var(--side-margin) 1.5em var(--side-margin);
+    width: calc(100% - 2 * var(--side-margin));
+    z-index: 10;
+}
+
+header img {
+    height: var(--header-height);
+}

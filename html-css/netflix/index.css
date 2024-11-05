@@ -1,0 +1,23 @@
+:root {
+    --main-bg-color: rgb(19, 19, 19);
+    --text-color: white;
+    --header-height: 2em;
+    --banner-height: 10em;
+    --side-margin: 5vw;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    color: var(--text-color);
+    background-color: var(--main-bg-color);
+}

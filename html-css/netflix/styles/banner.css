@@ -1,0 +1,60 @@
+.banner {
+    position: relative;
+    max-height: 35em;
+    overflow: hidden;
+}
+
+.banner ::after {
+    background-color: red;
+    background: linear-gradient(to bottom, var(--main-bg-color) 20%, transparent);
+}
+
+#banner {
+    width: 100%;
+}
+
+.banner-contents {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    width: 33%;
+    height: auto;
+    text-shadow: 0px 0px 3px black;
+    font-size: 1vw;
+    margin-left: var(--side-margin);
+}
+
+.banner-title {
+    font-size: 3em;
+    font-weight:bold;
+}
+
+.banner-button {
+    display: flex;
+    flex: row;
+    gap: 1em;
+}
+
+.banner button {
+    background-color: rgba(88, 88, 88, 0.75);
+    border: none;
+    padding: 0.5em 2em 0.5em 2em;
+    color: var(--text-color);
+    font-size: 0.9em;
+    font-weight:bold;
+    border-radius: 0.3em;
+    transition: background-color 0.5s;
+}
+
+.banner button:hover {
+    cursor: pointer;
+    background-color: rgba(88, 88, 88, 1);
+}
+
+.banner-description {
+    font-weight:bold;
+    font-size: 0.8em;
+}
